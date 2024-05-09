@@ -14,7 +14,7 @@ export default function Navbar() {
 
         {/* Mobile navigation */}
         <div
-          className="sm:hidden inline-block flex flex-col"
+          className="sm:hidden  flex flex-col"
           onClick={() => toggleDropDown((prev) => !prev)}>
           <Menu size={32} color="#06286E" />
           {dropDown ? (

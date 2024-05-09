@@ -1,8 +1,25 @@
-# React + Vite
+# Hyggex frontend internship assignment
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Setting up locally
 
-Currently, two official plugins are available:
+This project is very straight-forward to setup, just follow these steps :)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+1. Clone this repository in your chosen directory and go inside that folder
+    ```
+    git clone https://github.com/gurdittcancode/hyggex-internship-task
+    ```
+    and 
+    ```
+    cd hyggex-internship-task
+    ```
+
+2. Install the dependencies (I'm using pnpm here, feel free to use NPM)
+    ```
+    pnpm install
+    ```
+    or
+    ```
+    npm install
+    ```
+
+3. Open your favourite browser and go to <a>http://localhost:5173</a>
