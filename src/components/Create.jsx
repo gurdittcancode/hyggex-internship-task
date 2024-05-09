@@ -3,7 +3,7 @@ import CreateIcon from '../assets/create.svg';
 
 export default function Create() {
   return (
-    <div className="w-full flex justify-between items-center">
+    <div className="w-full flex flex-wrap justify-between sm:items-center">
       <img src={Publish} alt="" className="size-52" />
       <span className="flex items-center gap-2">
         <img src={CreateIcon} />

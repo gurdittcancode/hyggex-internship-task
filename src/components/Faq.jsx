@@ -8,7 +8,7 @@ function FaqCard({ q, a }) {
 
   return (
     <div
-      className={`mt-7 border border-blue-500 px-5 py-4 rounded-xl  overflow-hidden ${open ? 'max-h-[200px]' : 'max-h-[55px]'} transition-all ease-in-out  duration-500`}>
+      className={`mt-7 border border-blue-500 px-5 py-4 rounded-xl  overflow-hidden ${open ? 'max-h-[350px] md:max-h-[200px]' : 'max-h-[75px]'} transition-all ease-in-out  duration-500`}>
       <button
         onClick={() => setOpen((prev) => !prev)}
         className="flex justify-between w-full">
@@ -29,7 +29,7 @@ function FaqCard({ q, a }) {
 
 export default function Faq() {
   return (
-    <main className="">
+    <main className="md:mt-2 mt-6">
       <p className="text_gradient font-extrabold text-[52px]">FAQ</p>
 
       <div className="mt-2">
