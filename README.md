@@ -22,4 +22,10 @@ This project is very straight-forward to setup, just follow these steps :)
     npm install
     ```
 
+    then run the dev script
+
+    ```
+    npm run dev
+    ```
+
 3. Open your favourite browser and go to <a>http://localhost:5173</a>
